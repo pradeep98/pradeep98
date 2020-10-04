@@ -1,32 +1,35 @@
-<svg width="100%" height="100%" viewBox="30 -50 600 500" xmlns="http://www.w3.org/2000/svg"
-    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+<svg width="100%" height="400px"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+<style>
 
-    <path id="path">
-        <animate id="anim1" attributeName="d" from="m0,110 h0" to="m0,110 h1100" begin="0s; anim3.end" dur="5s"
-            type="rotate" />
-    </path>
-    <text font-size="36" font-family="Montserrat" fill='hsla(36, 95%, 85%, 1)'>
-        <textPath id="loop" xlink:href="#path">
-            Hi there..
-        </textPath>
-    </text>
+</style>
+<rect x="0" y="0" width="100%" height="100%" fill="black"/>
+   
+ <path id="path">
+		<animate id="anim1" attributeName="d" from="m0,110 h0" to="m0,110 h1100" begin="0s; anim3.end" dur="5s"  type="rotate"/>
+</path>
 
-    <path id="path2">
-        <animate id="anim2" attributeName="d" from="m0,110 h0" to="m0,110 h1100" begin="anim1.end" dur="5s"
-            type="rotate" />
-    </path>
-    <text font-size="36" font-family="Montserrat" fill='hsla(36, 95%, 85%, 1)'>
-        <textPath id="loop2" xlink:href="#path2"> This is Pradeep Here
-        </textPath>
-    </text>
+	<text x="50%" y="20%" dominant-baseline="middle" text-anchor="middle" class="aa" font-size="36" text-align="centre" font-family="Montserrat" fill='#F95700FF'>
+		<textPath id="loop" xlink:href="#path" text-anchor="right">
+           Hi there..
+    </textPath>
+	</text>
 
-    <path id="path3">
-        <animate id="anim3" attributeName="d" from="m0,110 h0" to="m0,110 h1100" begin="anim2.end" dur="5s"
-            type="rotate" />
-    </path>
-    <text font-size="36" font-family="Montserrat" fill='red'>
-        <textPath id="loop2" xlink:href="#path3"> I'm Software Engineer
-        </textPath>
-    </text>
+<path id="path2">
+		<animate id="anim2" attributeName="d" from="m0,110 h0" to="m0,110 h1100" begin="anim1.end-0.5" dur="5s" type="rotate"/>
+</path>
 
+<text x="50%" y="20%" dominant-baseline="middle" text-anchor="middle" font-size="36" font-family="Montserrat" fill='#F95700FF'>
+		<textPath id="loop2" xlink:href="#path2"> This is Pradeep Here
+    </textPath>
+	</text>
+    
+  <path id="path3">
+		<animate id="anim3" attributeName="d" from="m0,110 h0" to="m0,110 h1100" begin="anim2.end-0.5" dur="5s" type="rotate"/>
+</path>
+
+<text x="50%" y="20%" dominant-baseline="middle" text-anchor="middle" font-size="36" font-family="Montserrat" fill='#F95700FF'>
+		<textPath id="loop2" xlink:href="#path3"> I'm Software Engineer
+    </textPath>
+	</text>
+    
 </svg>
