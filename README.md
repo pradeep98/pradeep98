@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 ![](https://github.com/pradeep98/pradeep98/blob/main/src/index.html) 👋
+=======
+![](./src/index.svg) 👋
+>>>>>>> Stashed changes
 
 <!--
 **pradeep98/pradeep98** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
