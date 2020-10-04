@@ -1,2 +1,2 @@
 
-![](./src/index.svg) 👋
+![](./src/index.svg)
