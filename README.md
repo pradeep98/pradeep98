@@ -1,4 +1,4 @@
-![](src/index.html) 👋
+![](./src/index.html) 👋
 
 <!--
 **pradeep98/pradeep98** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
