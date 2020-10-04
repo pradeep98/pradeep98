@@ -15,7 +15,7 @@
 	</text>
 
 <path id="path2">
-		<animate id="anim2" attributeName="d" from="m0,110 h0" to="m0,110 h1100" begin="anim1.end-0.5" dur="5s" type="rotate"/>
+		<animate id="anim2" attributeName="d" from="m0,110 h0" to="m0,110 h1100" begin="anim1.end" dur="5s" type="rotate"/>
 </path>
 
 <text x="50%" y="20%" dominant-baseline="middle" text-anchor="middle" font-size="36" font-family="Montserrat" fill='#F95700FF'>
@@ -24,7 +24,7 @@
 	</text>
     
   <path id="path3">
-		<animate id="anim3" attributeName="d" from="m0,110 h0" to="m0,110 h1100" begin="anim2.end-0.5" dur="5s" type="rotate"/>
+		<animate id="anim3" attributeName="d" from="m0,110 h0" to="m0,110 h1100" begin="anim2.end" dur="5s" type="rotate"/>
 </path>
 
 <text x="50%" y="20%" dominant-baseline="middle" text-anchor="middle" font-size="36" font-family="Montserrat" fill='#F95700FF'>
