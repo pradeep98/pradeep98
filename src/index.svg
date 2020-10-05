@@ -1,6 +1,9 @@
 <svg width="100%" height="350px" viewBox="0 0 900 350" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
 <style>
-
+  li{
+	 float:left;
+     display: inline-block;
+    }
 </style>
 <rect x="0" y="0" width="100%" height="100%" fill="black"/>
    
@@ -31,5 +34,18 @@
 		<textPath id="loop2" xlink:href="#path3"> I'm Software Engineer
     </textPath>
 	</text>
+
+	<div>
+  	<li>
+      <a href="https://www.linkedin.com/in/pradeep-turan-35470417a/">
+        <img align="center" src="./linkedin.svg" width="48">
+      </a>
+      </li>
+	<li>
+      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=pradeep.t16@iiits.in&su=SUBJECT&body=BODY">
+        <img src="./gmail.svg" width="48">
+      </a>
+    </li>
+  </div>
     
 </svg>
