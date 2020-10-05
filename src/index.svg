@@ -29,18 +29,4 @@
 		<textPath id="loop2" xlink:href="#path3"> I'm Software Engineer
     </textPath>
 	</text>
-
-	<div>
-  	<li style="float:left; display: inline-block;">
-      <a href="https://www.linkedin.com/in/pradeep-turan-35470417a/">
-        <img align="center" src="./linkedin.svg" width="48">
-      </a>
-      </li>
-	<li style="float:left; display: inline-block;">
-      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=pradeep.t16@iiits.in&su=SUBJECT&body=BODY">
-        <img src="./gmail.svg" width="48">
-      </a>
-    </li>
-  </div>
-    
 </svg>
