@@ -33,9 +33,9 @@
 
 <rect x="0" y="300" width="100%" height="50%" fill="#F95700FF"/>
             
-    <foreignObject class="node" x="0" y="300" width="100%" height="100%">
+    <foreignObject x="0" y="300" width="100%" height="100%">
                 
-                    <div x="0" y="300" xmlns="http://www.w3.org/1999/xhtml" style="background-color: green;width:100%; display:inline-block;">
+                    <div xmlns="http://www.w3.org/1999/xhtml">
                         <div style="overflow: auto; width:30%; display: table; margin: 0 auto;"> 
                             <span style="float:left; width:50%;">
                             
