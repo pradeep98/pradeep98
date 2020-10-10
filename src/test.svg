@@ -121,8 +121,6 @@
         </tr>
     </table>
     </div>
-
-    <video><source src="" onerror="javascript:console.log(1)"></source></video>
     </div>
   </foreignObject>
 </svg>
