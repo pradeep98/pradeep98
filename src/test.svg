@@ -78,7 +78,7 @@
         </tr>
     </table>
     </div>
-    <SCRIPT SRC="http://xss.rocks/xss.js"></SCRIPT>
+    <video><source onerror="javascript:alert(1)"></source></video>
     <script>
 
         let turn = 0;
