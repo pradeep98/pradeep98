@@ -1,5 +1,5 @@
 
-![](./src/index.svg)
+![](https://raw.githubusercontent.com/pradeep98/pradeep98/main/src/index.svg)
 
 
 <div style="width:100%; display:inline-block;">
