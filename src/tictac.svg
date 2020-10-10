@@ -81,18 +81,22 @@
             if (turn % 2 === 0){
                 p1_x[x] = p1_x[x] != undefined ? p1_x[x] + 1 : 1;
                 p1_y[y] = p1_y[y] != undefined ? p1_y[y] + 1 : 1;
-                if (turn >= 4 && (p1_x[x] === 3 || p1_y[y] === 3)){
-                    console.log("player1 win");
-                    turn = -1;
+                if (turn >= 4){
+                    if (p1_x[x] === 3 || p1_y[y] === 3){
+                        console.log("player1 win");
+                        turn = -1;
+                    }
                 }
             }
             else{
                 p2_x[x] = p2_x[x] != undefined ? p2_x[x] + 1 : 1;
                 p2_y[y] = p2_y[y] != undefined ? p2_y[y] + 1 : 1;
-                if (turn >= 4 && (p2_x[x] === 3 || p2_y[y] === 3)){
+                if (turn >= 4){
+                    if (p2_x[x] === 3 || p2_y[y] === 3){
                     console.log("player2 win");
                     turn = -1;
                 }
+                } 
             }
             if (turn === 8){
                 console.log("Draw");
