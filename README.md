@@ -1,5 +1,5 @@
 
-![](./src/tictac.svg)
+![](./src/index.svg)
 
 
 <div style="width:100%; display:inline-block;">
