@@ -1,0 +1,108 @@
+<svg fill="none" viewBox="0 0 900 600" width="100%" height="600" xmlns="http://www.w3.org/2000/svg">
+
+<rect x="0" y="300" width="100%" height="100%" fill="#F95700FF"/>
+  <foreignObject x="0" y="300" width="100%" height="100%">
+    <div x="0" y="300" xmlns="http://www.w3.org/1999/xhtml">
+
+
+<div style="text-align: center;">
+    <table style="height: 300px; width: 300px;">
+        <tr style="border: tomato; border-radius: 1px;">
+            <td id="00" onClick="logic(this.id)" style="padding: 0px; width: 100; height: 100; background-color: black; color: white; font-size: 40px; text-align: center;">
+                <button style="width: 100%; height: 100%; background-color: black; color: white;">
+
+                </button>
+            </td>
+            <td id="01" onClick="logic(this.id)" style="padding: 0px; width: 100; height: 100; background-color: white; text-align: center;font-size: 40px;">
+                <button style="width: 100%; height: 100%; background-color: white;">
+
+                </button>
+            </td>
+            <td id="02" onClick="logic(this.id)" style="padding: 0px; width: 100; height: 100; background-color: black;color: white; text-align: center;font-size: 40px;">
+                <button style="width: 100%; height: 100%; background-color: black;color: white">
+
+                </button>
+            </td>
+        </tr>
+        <tr style="border: 1px tomato;">
+            <td id="10" onClick="logic(this.id)" style="padding: 0px; width: 100; height: 100; background-color: white; text-align: center;font-size: 40px;">
+                <button style="width: 100%; height: 100%; background-color: white;">
+
+                </button>
+            </td>
+            <td id="11" onClick="logic(this.id)" style="padding: 0px; width: 100; height: 100; background-color: black;color: white; text-align: center;font-size: 40px;">
+                <button style="width: 100%; height: 100%; background-color: black;color: white">
+
+                </button>
+            </td>
+            <td id="12" onClick="logic(this.id)" style="padding: 0px; width: 100; height: 100; background-color: white; text-align: center;font-size: 40px;">
+                <button style="width: 100%; height: 100%; background-color: white;">
+
+                </button>
+            </td>
+        </tr>
+        <tr style="border: 1px tomato;">
+            <td id="20" onClick="logic(this.id)" style="padding: 0px; width: 100; height: 100; background-color: black;color: white; text-align: center;font-size: 40px;">
+                <button style="width: 100%; height: 100%; background-color: black;color: white">
+
+                </button>
+            </td>
+            <td id="21" onClick="logic(this.id)" style="padding: 0px; width: 100; height: 100; background-color: white; text-align: center;font-size: 40px;">
+                <button style="width: 100%; height: 100%; background-color: white;">
+
+                </button>
+            </td>
+            <td id="22" onClick="logic(this.id)" style="padding: 0px; width: 100; height: 100; background-color: black;color: white; text-align: center;font-size: 40px;">
+                <button value="empty" style="width: 100%; height: 100%; background-color: black;color: white">
+
+                </button>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<script src="logic.js"></script>
+<script type="text/javascript" src="A.js"></script>
+
+    </div>
+    <script>
+
+        let turn = 0;
+        const p1_x = {};
+        const p1_y = {};
+        const p2_x = {};
+        const p2_y = {};
+        console.log("outside");
+        const logic = (id) => {
+            
+            console.log("inside");
+            const x = parseInt(parseInt(id) / 10);
+            const y = parseInt(id) % 10;
+            document.getElementById(id).innerHTML = turn % 2;
+            document.getElementById(id).disabled = true;
+            document.getElementById(id).style.pointerEvents = 'none';
+            
+            if (turn % 2 === 0){
+                p1_x[x] = p1_x[x] != undefined ? p1_x[x] + 1 : 1;
+                p1_y[y] = p1_y[y] != undefined ? p1_y[y] + 1 : 1;
+                if (turn >= 4 && (p1_x[x] === 3 || p1_y[y] === 3)){
+                    console.log("player1 win");
+                    turn = -1;
+                }
+            }
+            else{
+                p2_x[x] = p2_x[x] != undefined ? p2_x[x] + 1 : 1;
+                p2_y[y] = p2_y[y] != undefined ? p2_y[y] + 1 : 1;
+                if (turn >= 4 && (p2_x[x] === 3 || p2_y[y] === 3)){
+                    console.log("player2 win");
+                    turn = -1;
+                }
+            }
+            if (turn === 8){
+                console.log("Draw");
+            }
+            turn += 1
+        }
+    </script>
+  </foreignObject>
+</svg>
