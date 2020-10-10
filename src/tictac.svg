@@ -4,56 +4,74 @@
   <foreignObject x="0" y="0" width="100%" height="100%">
     <div x="0" y="0" xmlns="http://www.w3.org/1999/xhtml">
 
+        <style>
+        button, td{
+            padding: 0px;
+            width: 100px;
+            height: 100px;
+            font-size: 40px;
+            text-align: center;
+        }
 
-<div style="text-align: center;">
-    <table style="height: 300px; width: 300px;">
-        <tr style="border: tomato; border-radius: 1px;">
-            <td id="00" onClick="logic(this.id)" style="padding: 0px; width: 100; height: 100; background-color: black; color: white; font-size: 40px; text-align: center;">
-                <button style="width: 100%; height: 100%; background-color: black; color: white;">
+        .even{
+            background-color: black;
+            color: white;
+        }
+        .center{
+            width: 50%;
+            margin: 0 auto;
+        }
+        </style>
+        
+<div class="center" style="text-align: center;">
+    <table>
+        <tr>
+            <td id="00" onclick="logic(this.id)" class="even">
+                <button class="even">
 
                 </button>
             </td>
-            <td id="01" onClick="logic(this.id)" style="padding: 0px; width: 100; height: 100; background-color: white; text-align: center;font-size: 40px;">
+            <td id="01" onclick="logic(this.id)" >
                 <button style="width: 100%; height: 100%; background-color: white;">
 
                 </button>
             </td>
-            <td id="02" onClick="logic(this.id)" style="padding: 0px; width: 100; height: 100; background-color: black;color: white; text-align: center;font-size: 40px;">
-                <button style="width: 100%; height: 100%; background-color: black;color: white">
+            <td id="02" onclick="logic(this.id)" class="even">
+                <button class="even">
 
                 </button>
             </td>
         </tr>
-        <tr style="border: 1px tomato;">
-            <td id="10" onClick="logic(this.id)" style="padding: 0px; width: 100; height: 100; background-color: white; text-align: center;font-size: 40px;">
+        <tr>
+            <td id="10" onclick="logic(this.id)" >
                 <button style="width: 100%; height: 100%; background-color: white;">
 
                 </button>
             </td>
-            <td id="11" onClick="logic(this.id)" style="padding: 0px; width: 100; height: 100; background-color: black;color: white; text-align: center;font-size: 40px;">
-                <button style="width: 100%; height: 100%; background-color: black;color: white">
+            <td id="11" onclick="logic(this.id)" class="even">
+                <button class="even">
 
                 </button>
             </td>
-            <td id="12" onClick="logic(this.id)" style="padding: 0px; width: 100; height: 100; background-color: white; text-align: center;font-size: 40px;">
+            <td id="12" onclick="logic(this.id)" >
                 <button style="width: 100%; height: 100%; background-color: white;">
 
                 </button>
             </td>
         </tr>
-        <tr style="border: 1px tomato;">
-            <td id="20" onClick="logic(this.id)" style="padding: 0px; width: 100; height: 100; background-color: black;color: white; text-align: center;font-size: 40px;">
-                <button style="width: 100%; height: 100%; background-color: black;color: white">
+        <tr>
+            <td id="20" onclick="logic(this.id)" class="even">
+                <button class="even">
 
                 </button>
             </td>
-            <td id="21" onClick="logic(this.id)" style="padding: 0px; width: 100; height: 100; background-color: white; text-align: center;font-size: 40px;">
+            <td id="21" onclick="logic(this.id)" >
                 <button style="width: 100%; height: 100%; background-color: white;">
 
                 </button>
             </td>
-            <td id="22" onClick="logic(this.id)" style="padding: 0px; width: 100; height: 100; background-color: black;color: white; text-align: center;font-size: 40px;">
-                <button value="empty" style="width: 100%; height: 100%; background-color: black;color: white">
+            <td id="22" onclick="logic(this.id)" class="even">
+                <button class="even">
 
                 </button>
             </td>
