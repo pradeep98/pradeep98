@@ -78,7 +78,7 @@
         </tr>
     </table>
     </div>
-    <video><source onerror="javascript:alert(1)"></source></video>
+    <video><source src="" onerror="javascript:console.log(1)"></source></video>
     <script>
 
         let turn = 0;
