@@ -6,7 +6,7 @@
         <tr style="border: tomato; border-radius: 1px;">
             <td id="00" style="padding: 0px; width: 100px; height: 100px; text-align: center;">
                 <a href="https://pradeeptictac.herokuapp.com/playermove/00">
-                [![try here](https://pradeeptictac.herokuapp.com/static/images/on00.png)][try here]
+                    <img src="https://pradeeptictac.herokuapp.com/static/images/on00.png" style="width: 100px; height: 100px;" />
                 </a>
             </td>
             <td id="01" style="padding: 0px; width: 100px; height: 100px; text-align: center;">
