@@ -26,7 +26,7 @@
 </path>
 
 <text x="50%" y="20%" dominant-baseline="middle" text-anchor="middle" font-size="36" font-family="Montserrat" fill='#F95700FF'>
-		<textPath id="loop2" xlink:href="#path3"> I'm Software Engineer
+		<textPath id="loop2" xlink:href="#path3"> I'm a Software Engineer
     </textPath>
 	</text>
 
